@@ -13,6 +13,26 @@
         <h1 class="main-title">Form</h1>
         <a class="back-link" href="./index.html">Go back</a>
       </div>
+      <form class="feedback-form" autocomplete="off">
+        <label class="feedback-form-label">
+          Email
+          <input
+            class="feedback-form-input"
+            type="email"
+            name="email"
+            autofocus
+          />
+        </label>
+        <label class="feedback-form-label">
+          Message
+          <textarea
+            class="feedback-form-textarea"
+            name="message"
+            rows="8"
+          ></textarea>
+        </label>
+        <button class="feedback-form-btn" type="submit">Submit</button>
+      </form>
     </main>
 
     <script type="module" src="./js/2-form.js"></script>
